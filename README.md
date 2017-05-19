@@ -53,4 +53,10 @@ read captchas from **<current_dir>/data/test_data/** for recogition
 ```
 python captcha_predict.py
 ```
+result like this
+```
+...
+image WFPMX_num552.png precise ----> 'WFPMX'
+image QUDKM_num468.png precise ----> 'QUDKM'
+```
 

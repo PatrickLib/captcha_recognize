@@ -79,7 +79,7 @@ def run_predict():
     total_count = len(input_filenames)
     true_count = 0.
     for i in range(total_count):
-      print 'image', input_filenames[i], "precise ----> '", text[i], "'"
+      print('image ' + input_filenames[i] + " precise ----> '" + text[i] + "'")
       if text[i] in input_filenames[i]:
         true_count += 1
     precision = true_count / total_count
