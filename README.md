@@ -32,30 +32,30 @@ python captcha_gen_default.py
 ------------------------------
 the result file will be **<current_dir>/data/train_data/train.tfrecord** and **<current_dir>/data/valid.tfrecord**
 ```
-python captcha_gen_default.py
+python captcha_records.py
 ```
 
 3.training
 -------------
-train and evaluate neural network on CPU or one GPU
+train and evaluate neural network on CPU or one single GPU
 ```
-python captcha_gen_default.py
+python captcha_train.py
 ```
 you can also train over multiple GPUs
 ```
-python captcha_gen_default.py
+python captcha_multi_gpu_train.py
 ```
 
 4.evaluate
 -----------------
 ```
-python captcha_gen_default.py
+python captcha_eval.py
 ```
 
 5.predicte 
 ----------
 read captchas from **<current_dir>/data/test_data/** for recogition
 ```
-python captcha_gen_default.py
+python captcha_predict.py
 ```
 
