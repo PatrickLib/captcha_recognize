@@ -4,17 +4,20 @@ image recognition captchas using TensorFlow, no need to cut off image, run on ub
 
 ![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CMQVA_num717_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CMQZJ_num908_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CRGEU_num339_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CZHBN_num989_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/DZPEW_num388_1.png)
 
-accuracy 99.7%, training size 50000, captcha generator: https://github.com/lepture/captcha
+accuracy 99.7% judged by captcha_eval.py, training size 50000, after 20000 steps
+captcha generator: https://github.com/lepture/captcha
 
 ![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/1ab2s_num286.jpg)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/1ezx8_num398.jpg)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/1iv22_num346.jpg)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/1kxw2_num940.jpg)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/3mtj9_num765.jpg)
 
-accuracy 52.1%, training size 100000, captcha generator: https://github.com/Gregwar/CaptchaBundle
+accuracy 52.1% judged by captcha_eval.py, training size 100000, after 200000 steps
+captcha generator: https://github.com/Gregwar/CaptchaBundle
  
 Dependence
 ==========
-### Anaconda
+### python 2.7
+### Anaconda2 4.3.1
 https://www.continuum.io/downloads#linux
-### TensorFlow
+### TensorFlow 1.1
 https://github.com/tensorflow/tensorflow
 ### captcha
 https://pypi.python.org/pypi/captcha/0.1.1
