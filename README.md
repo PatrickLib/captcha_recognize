@@ -28,7 +28,7 @@ python captcha_gen_default.py
 ```
 
 ## 2.convert dataset to tfrecords
-the result file will be **<current_dir>/data/train_data/train.tfrecord** and **<current_dir>/data/valid.tfrecord**
+the result file will be **<current_dir>/data/train.tfrecord** and **<current_dir>/data/valid.tfrecord**
 ```
 python captcha_records.py
 ```
