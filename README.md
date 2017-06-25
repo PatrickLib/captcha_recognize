@@ -1,3 +1,7 @@
+Translation
+===========
+[English](https://raw.githubusercontent.com/PatrickLib/captcha_recognize/master/README.md) [中文](https://raw.githubusercontent.com/PatrickLib/captcha_recognize/master/README-zhcn.md)
+
 Introduce
 =========
 image recognition captchas using TensorFlow, no need to cut off image, run on ubuntu 16.04, python 2.7
