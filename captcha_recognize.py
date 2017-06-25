@@ -79,11 +79,11 @@ def run_predict():
     total_count = len(input_filenames)
     true_count = 0.
     for i in range(total_count):
-      print('image ' + input_filenames[i] + " precise ----> '" + text[i] + "'")
+      print('image ' + input_filenames[i] + " recognize ----> '" + text[i] + "'")
       if text[i] in input_filenames[i]:
         true_count += 1
     precision = true_count / total_count
-    print('%s true/total: %d/%d precision @ 1 = %.3f'
+    print('%s true/total: %d/%d recognize @ 1 = %.3f'
                     %(datetime.now(), true_count, total_count, precision))
 
 
