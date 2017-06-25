@@ -1,6 +1,6 @@
 介绍
 ====
-###其他语言：
+### 其他语言：
 [English](https://github.com/PatrickLib/captcha_recognize/blob/master/README.md) [中文](https://github.com/PatrickLib/captcha_recognize/blob/master/README-zhcn.md)
 
 基于TensorFlow的验证码识别，不需要对图片进行切割，运行环境Ubuntu 16.04，Python 2.7
