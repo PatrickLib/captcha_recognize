@@ -1,7 +1,6 @@
 介绍
 ====
-### 其他语言：
-[English](https://github.com/PatrickLib/captcha_recognize/blob/master/README.md) [中文](https://github.com/PatrickLib/captcha_recognize/blob/master/README-zhcn.md)
+### 其他语言： [English](https://github.com/PatrickLib/captcha_recognize/blob/master/README.md) [中文](https://github.com/PatrickLib/captcha_recognize/blob/master/README-zhcn.md)
 
 基于TensorFlow的验证码识别，不需要对图片进行切割，运行环境Ubuntu 16.04，Python 2.7
 
@@ -26,13 +25,13 @@ https://pypi.python.org/pypi/captcha/0.1.1
 使用步骤
 =======
 ## 1.准备验证码图片
-将验证码图片分别放在**<工作目录>/data/train_data/**用于模型训练，**<工作目录>/data/valid_data/**用于模型效果评估，**<工作目录>/data/test_data/**用于验证码识别测试，图片命名样式是**验证码内容_\*.jpg**或者**验证码内容_\*.png**，图片大小最好为**128x48**. 可以执行默认的验证码生成:
+将验证码图片分别放在 **<工作目录>/data/train_data/** 用于模型训练，**<工作目录>/data/valid_data/** 用于模型效果评估， **<工作目录>/data/test_data/** 用于验证码识别测试，图片命名样式是 **验证码内容_\*.jpg** 或者 **验证码内容_\*.png** ，图片大小最好为 **128x48** . 可以执行默认的验证码生成:
 ```
 python captcha_gen_default.py
 ```
 
 ## 2.将验证码图片转换为tfrecords格式
-生成的结果为**<工作目录>/data/train.tfrecord**和**<工作目录>/data/valid.tfrecord**，执行：
+生成的结果为 **<工作目录>/data/train.tfrecord** 和 **<工作目录>/data/valid.tfrecord** ，执行：
 ```
 python captcha_records.py
 ```
@@ -54,7 +53,7 @@ python captcha_eval.py
 ```
 
 ## 5.验证码识别
-训练好模型后，可以对**<工作目录>/data/test_data/**目录下的原始图片进行识别，执行：
+训练好模型后，可以对 **<工作目录>/data/test_data/** 目录下的原始图片进行识别，执行：
 ```
 python captcha_recognize.py
 ```

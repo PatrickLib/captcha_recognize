@@ -1,7 +1,6 @@
 Introduce
 =========
-### Translation:
-[English](https://github.com/PatrickLib/captcha_recognize/blob/master/README.md) [中文](https://github.com/PatrickLib/captcha_recognize/blob/master/README-zhcn.md)
+### Translation: [English](https://github.com/PatrickLib/captcha_recognize/blob/master/README.md) [中文](https://github.com/PatrickLib/captcha_recognize/blob/master/README-zhcn.md)
 
 image recognition captchas using TensorFlow, no need to image segmentation, run on ubuntu 16.04, python 2.7
 
