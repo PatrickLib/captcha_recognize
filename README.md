@@ -1,10 +1,8 @@
-Translation
-===========
-[English](https://raw.githubusercontent.com/PatrickLib/captcha_recognize/master/README.md) [中文](https://raw.githubusercontent.com/PatrickLib/captcha_recognize/master/README-zhcn.md)
-
 Introduce
 =========
-image recognition captchas using TensorFlow, no need to cut off image, run on ubuntu 16.04, python 2.7
+###Translation:[English](https://raw.githubusercontent.com/PatrickLib/captcha_recognize/master/README.md) [中文](https://raw.githubusercontent.com/PatrickLib/captcha_recognize/master/README-zhcn.md)
+
+image recognition captchas using TensorFlow, no need to image segmentation, run on ubuntu 16.04, python 2.7
 
 ![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CMQVA_num717_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CMQZJ_num908_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CRGEU_num339_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CZHBN_num989_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/DZPEW_num388_1.png)
 
@@ -29,7 +27,7 @@ https://pypi.python.org/pypi/captcha/0.1.1
 Usage
 =====
 ## 1.prepare captchas
-put your own captchas in **<current_dir>/data/train_data/** for training, **<current_dir>/data/valid_data/** for evaluating and **<current_dir>/data/test_data/** for prediction testing, images file name must be **label_\*.jpg** or **label_\*.png** and recommend size **128x48**. you can also use default generation:
+put your own captchas in **<current_dir>/data/train_data/** for training, **<current_dir>/data/valid_data/** for evaluating and **<current_dir>/data/test_data/** for recognize testing, images file name must be **label_\*.jpg** or **label_\*.png** and recommend size **128x48**. you can also use default generation:
 ```
 python captcha_gen_default.py
 ```
@@ -55,15 +53,15 @@ python captcha_multi_gpu_train.py
 python captcha_eval.py
 ```
 
-## 5.predicte 
+## 5.recognize
 read captchas from **<current_dir>/data/test_data/** for recogition
 ```
-python captcha_predict.py
+python captcha_recognize.py
 ```
 result like this
 ```
 ...
-image WFPMX_num552.png precise ----> 'WFPMX'
-image QUDKM_num468.png precise ----> 'QUDKM'
+image WFPMX_num552.png recognize ----> 'WFPMX'
+image QUDKM_num468.png recognize ----> 'QUDKM'
 ```
 
