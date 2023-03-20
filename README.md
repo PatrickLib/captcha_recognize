@@ -1,8 +1,7 @@
 Introduce
 =========
-### Translation: [English](https://github.com/PatrickLib/captcha_recognize/blob/master/README.md) [中文](https://github.com/PatrickLib/captcha_recognize/blob/master/README-zhcn.md)
 
-image recognition captchas using TensorFlow, no need image segmentation, run on ubuntu 16.04, python 2.7
+Image recognition captchas using TensorFlow, no need image segmentation, run on ubuntu 16.04, python 2.7
 
 ![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CMQVA_num717_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CMQZJ_num908_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CRGEU_num339_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CZHBN_num989_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/DZPEW_num388_1.png)![captcha](https://raw.githubusercontent.com/PatrickLib/captcha_recognition/master/data/test_data/CZWED_num21_1.png)
 
